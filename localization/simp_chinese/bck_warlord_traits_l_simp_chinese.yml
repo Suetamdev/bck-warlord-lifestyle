@@ -1,0 +1,11 @@
+﻿l_simp_chinese: 
+ trait_lifestyle_warlord:0 "战争领主"
+ trait_lifestyle_warlord_desc:0 "战争领主是战争的掌控者，以卓越的战术和武艺塑造国家的命运。"
+ trait_lifestyle_warlord_character_desc:0 "在战争的最前线，[ROOT.GetCharacter.GetFirstNameNoTooltip]以坚定的决心和卓越的战略指挥作战，通过战斗掌控国家的命运。"
+ 
+ trait_track_attack:0 "进攻"
+ trait_track_attack_desc:0 "侵略性战术大师，战争领主以狂暴的战斗策略确保胜利。"
+ trait_track_defense:0 "防御"
+ trait_track_defense_desc:0 "坚定的防御者，战争领主通过精妙的战术巩固阵地，以坚韧不拔的战斗力扭转战局。"
+ trait_track_pillage:0 "掠夺"
+ trait_track_pillage_desc:0 "冷酷无情的掠夺者，战争领主摧毁敌人的土地，以精准的残暴手段夺取财富。"

@@ -1,0 +1,19 @@
+﻿on_combat_end_winner = {
+    on_actions = {
+        bck_warlord_combat_trait = yes
+        bck_warlord_combat_win_action = yes
+    }
+}
+
+on_combat_end_loser = {
+    on_actions = {
+        bck_warlord_combat_lose_action = yes
+    }
+}
+
+on_raid_action_completion = {
+    on_actions = {
+        bck_warlord_pillage_trait = yes
+        bck_warlord_combat_pillage_action = yes
+    }
+}

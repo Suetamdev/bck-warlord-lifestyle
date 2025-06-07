@@ -1,0 +1,77 @@
+﻿bck_warlord_set_position_effect = {
+    add_trait = lifestyle_warlord
+}
+
+bck_warlord_pillage_set_position_effect = {
+    add_trait = viking
+}
+
+bck_warlord_winning_battle_attack_xp_effect = {
+    random = {
+        chance = 50
+        add_trait_xp = {
+            trait = lifestyle_warlord
+            track = attack
+            value = {
+                integer_range = {
+                    min = 3
+                    max = 6
+                }
+            }
+        }
+    }
+}
+
+bck_warlord_winning_battle_defense_xp_effect = {
+    random = {
+        chance = 50
+        add_trait_xp = {
+            trait = lifestyle_warlord
+            track = defense
+            value = {
+                integer_range = {
+                    min = 5
+                    max = 8
+                }
+            }
+        }
+    }
+}
+
+bck_warlord_lose_battle_attack_xp_effect = {
+    random = {
+        chance = 30
+        add_trait_xp = {
+            trait = lifestyle_warlord
+            track = attack
+            value = -1
+        }
+    }
+}
+
+bck_warlord_lose_battle_defense_xp_effect = {
+    random = {
+        chance = 30
+        add_trait_xp = {
+            trait = lifestyle_warlord
+            track = defense
+            value = -1
+        }
+    }
+}
+
+bck_warlord_pillage_xp_effect = {
+    random = {
+        chance = 40
+        add_trait_xp = {
+            trait = lifestyle_warlord
+            track = pillage
+            value = {
+                integer_range = {
+                    min = 3
+                    max = 6
+                }
+            }
+        }
+    }
+}

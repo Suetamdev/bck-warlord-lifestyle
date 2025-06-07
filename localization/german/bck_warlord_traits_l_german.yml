@@ -1,0 +1,11 @@
+﻿l_german: 
+ trait_lifestyle_warlord:0 "Kriegsherr"
+ trait_lifestyle_warlord_desc:0 "Der Kriegsherr ist ein Meister der Kriegsführung und formt das Schicksal der Nationen mit taktischer Brillanz und militärischem Können."
+ trait_lifestyle_warlord_character_desc:0 "An vorderster Front des Krieges führt [ROOT.GetCharacter.GetFirstNameNoTooltip] mit entschlossener Härte und strategischem Geschick, wodurch er das Schicksal des Reiches durch seine Kampfkraft prägt."
+
+ trait_track_attack:0 "Angriff"
+ trait_track_attack_desc:0  "Aggressiver Stratege, der Kriegsherr führt mit unerbittlicher Härte und sichert den Sieg durch gnadenlose Kampftaktiken."
+ trait_track_defense:0 "Verteidigung"
+ trait_track_defense_desc:0 "Unerschütterlicher Verteidiger, der Kriegsherr stärkt seine Stellungen mit strategischer Voraussicht und wendet den Krieg mit unnachgiebiger Kampfstärke zu seinen Gunsten."
+ trait_track_pillage:0 "Plünderung"
+ trait_track_pillage_desc:0 "Gnadenloser Plünderer, der Kriegsherr verwüstet feindliche Ländereien und sichert sich Reichtümer mit kalkulierter Brutalität."

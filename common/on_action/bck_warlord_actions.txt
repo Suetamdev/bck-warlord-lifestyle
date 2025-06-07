@@ -1,0 +1,155 @@
+﻿bck_warlord_combat_trait = {
+    trigger = {
+        exists = side_commander
+        side_commander = { NOT = { has_trait = lifestyle_warlord }}
+    }
+    effect = {
+        side_commander = {
+            bck_warlord_set_position_effect = yes
+        }
+    }
+}
+
+bck_warlord_combat_win_action = {
+    trigger = {
+        exists = side_commander
+        side_commander = { has_trait = lifestyle_warlord }
+    }
+    effect = {
+        if = {
+            limit = {
+                combat = {
+                    combat_attacker = {
+                        exists = side_commander
+                    }
+                }
+                side_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = attack
+                        value < 100
+                    }
+                }
+            }
+            side_commander = {
+                bck_warlord_winning_battle_attack_xp_effect = yes
+            }
+        }
+        else_if = {
+            limit = {
+                combat = {
+                    combat_defender = {
+                        exists = side_commander
+                    }
+                }
+                side_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = defense
+                        value < 100
+                    }
+                }
+            }
+            side_commander = {
+                bck_warlord_winning_battle_defense_xp_effect = yes
+            }
+        }
+    }
+}
+
+bck_warlord_combat_lose_action = {
+    trigger = {
+        exists = side_commander
+        side_commander = { has_trait = lifestyle_warlord }
+    }
+    effect = {
+        if = {
+            limit = {
+                combat = {
+                    combat_attacker = {
+                        exists = side_commander
+                    }
+                }
+                side_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = attack
+                        value > 0
+                    }
+                }
+            }
+            side_commander = {
+                bck_warlord_lose_battle_attack_xp_effect = yes
+            }
+        }
+        else_if = {
+            limit = {
+                combat = {
+                    combat_defender = {
+                        exists = side_commander
+                    }
+                }
+                side_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = defense
+                        value > 0
+                    }
+                }
+            }
+            side_commander = {
+                bck_warlord_lose_battle_defense_xp_effect = yes
+            }
+        }
+    }
+}
+
+bck_warlord_pillage_trait = {
+    trigger = {
+        exists = army_commander
+        army_commander = { NOT = { has_trait = lifestyle_warlord }}
+    }
+    effect = {
+        army_commander = {
+            bck_warlord_set_position_effect = yes
+        }
+    }
+}
+
+bck_warlord_combat_pillage_action = {
+    trigger = {
+        exists = army_commander
+        army_commander = { has_trait = lifestyle_warlord }
+    }
+    effect = {
+        if = {
+            limit = {
+                army_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = pillage
+                        value < 100
+                    }
+                }
+            }
+            army_commander = {
+                bck_warlord_pillage_xp_effect = yes
+            }
+        }
+        else_if = {
+            limit = {
+                army_commander = { NOT = { has_trait = viking }}
+                army_commander = {
+                    has_trait_xp = {
+                        trait = lifestyle_warlord
+                        track = pillage
+                        value >= 100
+                    }
+                }
+            }
+            army_commander = {
+                bck_warlord_pillage_set_position_effect = yes
+            }
+        }
+    }
+}

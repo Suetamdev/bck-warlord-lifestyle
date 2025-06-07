@@ -1,0 +1,11 @@
+﻿l_french: 
+ trait_lifestyle_warlord:0 "Seigneur de Guerre"
+ trait_lifestyle_warlord_desc:0 "Le Seigneur de Guerre est un maître de la guerre, façonnant le destin des nations grâce à son génie tactique et sa prouesse martiale."
+ trait_lifestyle_warlord_character_desc:0 "Au cœur de la guerre, [ROOT.GetCharacter.GetFirstNameNoTooltip] commande avec une détermination féroce et un génie stratégique, façonnant le destin du royaume par sa maîtrise du combat."
+
+ trait_track_attack:0 "Attaque"
+ trait_track_attack_desc:0  "Tacticien agressif, le Seigneur de Guerre mène avec férocité, assurant la victoire par des tactiques de combat implacables."
+ trait_track_defense:0 "Défense"
+ trait_track_defense_desc:0 "Défenseur inébranlable, le Seigneur de Guerre fortifie ses positions avec une prévoyance stratégique, renversant la situation avec une prouesse inébranlable au combat."
+ trait_track_pillage:0 "Pillage"
+ trait_track_pillage_desc:0 "Raideur impitoyable, le Seigneur de Guerre dévaste les terres ennemies, s'emparant des richesses avec une brutalité calculée."

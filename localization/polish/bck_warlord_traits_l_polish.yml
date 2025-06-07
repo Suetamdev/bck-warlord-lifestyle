@@ -1,0 +1,11 @@
+﻿l_polish: 
+ trait_lifestyle_warlord:0 "Wojownik"
+ trait_lifestyle_warlord_desc:0 "Wojownik to mistrz wojny, który kształtuje losy narodów dzięki swojej taktycznej genialności i umiejętnościom bojowym."
+ trait_lifestyle_warlord_character_desc:0 "Na pierwszej linii frontu [ROOT.GetCharacter.GetFirstNameNoTooltip] dowodzi z żelazną determinacją i strategiczną błyskotliwością, kształtując losy królestwa poprzez mistrzowskie dowodzenie w walce."
+
+ trait_track_attack:0 "Atak"
+ trait_track_attack_desc:0 "Agresywny strateg, Wojownik prowadzi swoje wojska z zaciekłością, zapewniając zwycięstwo dzięki bezwzględnej taktyce walki."
+ trait_track_defense:0 "Obrona"
+ trait_track_defense_desc:0 "Niezłomny obrońca, Wojownik umacnia swoje pozycje z wyprzedzającą taktyką, odwracając losy bitwy dzięki niezachwianej sile bojowej."
+ trait_track_pillage:0 "Grabież"
+ trait_track_pillage_desc:0 "Bezwzględny najeźdźca, Wojownik pustoszy ziemie wroga, zdobywając bogactwa z zimną kalkulacją i brutalnością."

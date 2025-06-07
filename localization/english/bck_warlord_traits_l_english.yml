@@ -1,0 +1,11 @@
+﻿l_english: 
+ trait_lifestyle_warlord:0 "Warlord"
+ trait_lifestyle_warlord_desc:0 "The Warlord is a master of warfare, shaping the fate of nations with tactical brilliance and martial prowess."
+ trait_lifestyle_warlord_character_desc:0 "At the forefront of war, [ROOT.GetCharacter.GetFirstNameNoTooltip] commands with fierce determination and strategic brilliance, shaping the realm's destiny through combat mastery."
+ 
+ trait_track_attack:0 "Attack"
+ trait_track_attack_desc:0  "Aggressive tactician, the Warlord leads with ferocity, securing victory through relentless combat tactics."
+ trait_track_defense:0 "Defense"
+ trait_track_defense_desc:0 "Unyielding defender, the Warlord fortifies positions with strategic foresight, turning the tide with unwavering prowess in combat."
+ trait_track_pillage:0 "Pillage"
+ trait_track_pillage_desc:0 "Merciless raider, the Warlord lays waste to enemy lands, seizing riches with calculated brutality."

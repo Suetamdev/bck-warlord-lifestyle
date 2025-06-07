@@ -1,0 +1,11 @@
+﻿l_korean: 
+ trait_lifestyle_warlord:0 "전쟁군주"
+ trait_lifestyle_warlord_desc:0 "전쟁군주는 전술적 기량과 군사적 능력으로 국가의 운명을 결정짓는 전쟁의 대가입니다."
+ trait_lifestyle_warlord_character_desc:0 "전쟁의 최전선에서 [ROOT.GetCharacter.GetFirstNameNoTooltip]는 강한 결단력과 전략적 통찰력으로 군을 지휘하며, 전투의 지배력을 통해 영토의 운명을 결정합니다."
+
+ trait_track_attack:0 "공격"
+ trait_track_attack_desc:0 "공격적인 전술가로서, 전쟁군주는 맹렬한 전투 전술을 통해 승리를 쟁취합니다."
+ trait_track_defense:0 "방어"
+ trait_track_defense_desc:0 "불굴의 방어자, 전쟁군주는 전략적 통찰력으로 방어를 강화하며, 굳건한 전투 능력으로 전황을 반전시킵니다."
+ trait_track_pillage:0 "약탈"
+ trait_track_pillage_desc:0 "무자비한 약탈자로서, 전쟁군주는 적의 영토를 황폐화시키고 치밀한 잔혹함으로 전리품을 빼앗습니다."

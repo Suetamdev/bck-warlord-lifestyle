@@ -1,0 +1,76 @@
+﻿lifestyle_warlord = {
+    icon = warlord.dds
+    category = lifestyle
+    ruler_designer_cost = 20
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_lifestyle_warlord_desc
+            }
+            desc = trait_lifestyle_warlord_character_desc
+        }
+    }
+
+    tracks = {
+        attack = {
+            25 = {
+                army_damage_mult = 0.05
+                army_pursuit_mult = 0.05
+            }
+            50 = {
+                army_damage_mult = 0.05
+                army_pursuit_mult = 0.05
+            }
+            75 = {
+                army_damage_mult = 0.05
+                army_pursuit_mult = 0.05
+                attacker_advantage = 1
+            }
+            100 = {
+                attacker_advantage = 2
+                martial = 1
+            }
+        }
+        defense = {
+            25 = {
+                army_toughness_mult = 0.05
+                army_screen_mult = 0.05
+            }
+            50 = {
+                army_toughness_mult = 0.05
+                army_screen_mult = 0.05
+            }
+            75 = {
+                army_toughness_mult = 0.05
+                army_screen_mult = 0.05
+                defender_advantage = 1
+            }
+            100 = {
+                defender_advantage = 2
+                martial = 1
+            }
+        }
+        pillage = {
+            25 = {
+                raid_speed = 0.1
+            }
+            50 = {
+                raid_speed = 0.1
+                supply_capacity_mult = 0.25
+            }
+            75 = {
+                raid_speed = 0.1
+                movement_speed = 0.05
+            }
+            100 = {
+                prowess = 2
+                hostile_county_attrition = -0.15
+            }
+        }
+    }
+    ai_energy = 15
+}

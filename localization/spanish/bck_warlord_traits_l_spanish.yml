@@ -1,0 +1,11 @@
+﻿l_spanish: 
+ trait_lifestyle_warlord:0 "Señor de la Guerra"
+ trait_lifestyle_warlord_desc:0 "El Señor de la Guerra es un maestro del combate, moldeando el destino de las naciones con su genio táctico y destreza marcial."
+ trait_lifestyle_warlord_character_desc:0 "En el frente de batalla, [ROOT.GetCharacter.GetFirstNameNoTooltip] lidera con feroz determinación y brillantez estratégica, forjando el destino del reino a través de su dominio en la guerra."
+ 
+ trait_track_attack:0 "Ataque"
+ trait_track_attack_desc:0 "Un estratega agresivo, el Señor de la Guerra lidera con ferocidad, asegurando la victoria mediante tácticas de combate implacables."
+ trait_track_defense:0 "Defensa"
+ trait_track_defense_desc:0 "Un defensor inquebrantable, el Señor de la Guerra fortalece posiciones con previsión estratégica, cambiando el rumbo de la batalla con su destreza inigualable en combate."
+ trait_track_pillage:0 "Pillaje"
+ trait_track_pillage_desc:0 "Un saqueador despiadado, el Señor de la Guerra arrasa las tierras enemigas, tomando riquezas con brutalidad calculada."
