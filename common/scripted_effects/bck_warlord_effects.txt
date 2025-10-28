@@ -14,8 +14,8 @@ bck_warlord_winning_battle_attack_xp_effect = {
             track = attack
             value = {
                 integer_range = {
-                    min = 3
-                    max = 6
+                    min = 4
+                    max = 8
                 }
             }
         }
@@ -30,8 +30,8 @@ bck_warlord_winning_battle_defense_xp_effect = {
             track = defense
             value = {
                 integer_range = {
-                    min = 5
-                    max = 8
+                    min = 6
+                    max = 12
                 }
             }
         }
@@ -44,7 +44,7 @@ bck_warlord_lose_battle_attack_xp_effect = {
         add_trait_xp = {
             trait = lifestyle_warlord
             track = attack
-            value = -1
+            value = -2
         }
     }
 }
@@ -55,7 +55,7 @@ bck_warlord_lose_battle_defense_xp_effect = {
         add_trait_xp = {
             trait = lifestyle_warlord
             track = defense
-            value = -1
+            value = -2
         }
     }
 }
@@ -68,8 +68,8 @@ bck_warlord_pillage_xp_effect = {
             track = pillage
             value = {
                 integer_range = {
-                    min = 3
-                    max = 6
+                    min = 4
+                    max = 8
                 }
             }
         }
